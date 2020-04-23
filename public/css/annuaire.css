@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    background-color: rgb(27, 27, 27) !important;
+}
+
+.noep{
+    padding: 300px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color:  white;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.listing{
+    color: white;
+    font-family: Roboto;
+    display: inline;
+    box-sizing: border-box;
+    border-color: gold;
+    height: 80px;
+    width: 80%;
+    text-align: center;
+}

@@ -22,7 +22,7 @@ header {
     text-align: justify;
 }
 
-.logo {
+.logo a{
     line-height: 60px;
     position: fixed;
     float: left;
@@ -31,6 +31,8 @@ header {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2px;
+    list-style: none;
+    text-decoration: none;
 }
 
 nav {

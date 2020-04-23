@@ -7,7 +7,7 @@
         <h1>l'annuaire professionnels</h1>
         <h1>des entreprises</h1>
         <h3>Rechercher parmi {{$counts}} societés</h3>
-        <input class="search-input1" type="text" placeholder="Qui ? (Societé)"><input class="search-input2" type="text" placeholder="Où ? (Ville)"><button class="button-search"><span>Search</span></button>
+        <input class="search-input1" type="text" placeholder="Qui ? (Societé)"><input class="search-input2" type="text" placeholder="Où ? (Ville)"><button class="button-search" ><span>Search</span></button>
     </div>
     
     <div class="slideshow-container">

@@ -7,12 +7,12 @@
              <i class="fa fa-bars fa-2x"></i>
           </div>
           <div class="logo">
-             IndexEntreprise
+            <a href="/">IndexEntreprise</a>
           </div>
           <div class="menu">
              <ul class="ulc">
-                <li class="lic"><a href="/">Home</a></li>
-                <li class="lic"><a href="#">About</a></li>
+                <li class="lic"><a href="/annuaire">Annuaire Complet</a></li>
+                <li class="lic"><a href="#">A propos</a></li>
                 <li class="lic"><a href="/contact">Contact</a></li>
                 <li class="lic"><a href="/connect">Connectez-vous</a></li>
              </ul>

@@ -18,4 +18,8 @@ class PagesController extends Controller
     public function connect(){
         return view('pages.connect');
     }
+    public function annuaire(){
+        $entreprises = Entreprise::all();
+        return view('pages.annuaire')->with('entreprises',$entreprises);
+    }
 }
