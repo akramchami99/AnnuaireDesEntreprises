@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+h1,h3{
+    color : gold;
+}
+
+.search-bar{
+    padding-top: 110px;
+    padding-bottom: 80px;
+    padding-left: 32%;
+    width: 100%;
+    background : url('380471-city-Paris-France-La_Defense_Paris.jpg') no-repeat 1500% 5%;
+    background-size: cover;
+    font-family: Roboto;
+  }
+.search-input1{
+    background-color:rgb(41, 41, 41);
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    border : none;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px 12px;
+    display: inline-block;
+}
+.search-input2{
+    background-color:rgb(41, 41, 41);
+    border : none;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin-left: 2px;
+    font-size: 15px;
+    padding: 5px 12px;
+    display: inline-block;
+}
+.button-search {
+    border-radius: 4px;
+    background-color:rgb(41, 41, 41);
+    border: none;
+    color: gold;
+    text-align: center;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button-search  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-search  span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-search:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-search:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+*{box-sizing: border-box}
+body {
+  font-family: Verdana, sans-serif; 
+  margin:0
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top : 40px;
+  align-items: center;
+}
+
+.titleslideshow{
+  color : rgb(29, 29, 29);
+  font-family : Roboto ;
+  font-size: 17px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 15%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+  background-color: rgba(48, 48, 48, 0.8);
+}
+
+.next {
+  background-color: rgba(48, 48, 48, 0.8);
+  right: 0;
+  border-radius: 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  margin-top: 300px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.mySlides .ulc{
+    display: block;
+    position: relative;
+} 
+.ula .lia{
+    padding : 5px;
+    width: 25%;
+    margin-left: 55px;
+    display: inline-block;
+}
+.cadr{
+    position: absolute;
+}
+.cadr p {
+  width: 200px;
+  word-wrap: break-word;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.booste-container{
+  width: 100%;
+  height : 450px;
+  background-color: rgb(32, 32, 32);
+  padding-top :50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  color: white;
+  font-family: Roboto;
+}
+
+.titleboost{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left : 200px;
+}
+
+.perks-container{
+  margin-top: 50px;
+  padding-left: 150px;
+  padding-right: 50px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+  grid-template-areas: "perk1 perk2 perk3";
+  grid-area: perks-container;
+  align-items: center;
+}
+
+.perk1 { grid-area: perk1; }
+
+.perk2 { grid-area: perk2; }
+
+.perk3 { grid-area: perk3; }
+
+
+.perks-container1{
+  display: grid;
+  padding-left: 350px;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: 0.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+.perk4 { 
+  grid-area: 1 / 2 / NaN / NaN; 
+  width: 400px;
+}
+.perk5 { 
+  grid-area: 1 / 1 / 2 / 2; 
+  width: 400px;
+}
+
