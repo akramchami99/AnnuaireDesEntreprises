@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PagesController@index');
 Route::get('/contact', 'PagesController@contact');
-
+Route::get('/connect', 'PagesController@connect');
 
 Route::resource('Entreprises','EntrepriseController');

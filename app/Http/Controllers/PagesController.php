@@ -15,4 +15,7 @@ class PagesController extends Controller
     public function contact(){
         return view('pages.contact');
     }
+    public function connect(){
+        return view('pages.connect');
+    }
 }

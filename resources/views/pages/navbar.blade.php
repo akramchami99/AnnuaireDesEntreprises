@@ -14,7 +14,7 @@
                 <li class="lic"><a href="/">Home</a></li>
                 <li class="lic"><a href="#">About</a></li>
                 <li class="lic"><a href="/contact">Contact</a></li>
-                <li class="lic"><a href="#">Connectez-vous</a></li>
+                <li class="lic"><a href="/connect">Connectez-vous</a></li>
              </ul>
           </div>
        </nav>
