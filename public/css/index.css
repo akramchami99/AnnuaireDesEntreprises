@@ -195,16 +195,17 @@ body {
 }
 
 .perks-container{
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
+  padding-right: auto;
   padding-left: 150px;
-  padding-right: 50px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr ;
   grid-template-areas: "perk1 perk2 perk3";
   grid-area: perks-container;
-  align-items: center;
 }
 
 .perk1 { grid-area: perk1; }
