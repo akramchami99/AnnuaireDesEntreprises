@@ -17,5 +17,6 @@ Route::get('/', 'PagesController@index');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/connect', 'PagesController@connect');
 Route::get('/annuaire', 'PagesController@annuaire');
+Route::get('/signup', 'PagesController@signup');
 
 Route::resource('Entreprises','EntrepriseController');

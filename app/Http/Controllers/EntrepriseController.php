@@ -36,7 +36,7 @@ class EntrepriseController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      
     }
 
     /**
