@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @section('content')
     <link rel="stylesheet" href="{{asset('css/index.css')}}">
@@ -57,9 +57,6 @@
         <div class="perks-container">
             <div class="perk1"><p style="font-weight : bold;">Inscription Gratuite</p><p>Inscrivez-vous et rejoingnez l'ensemble des professionnels du Maroc</p></div>
             <div class="perk2"><p style="font-weight : bold;">Professionnels du Jour</p><p>Gagnez en visibilité avec un espace priviligié sur la page d'acceuil</p></div>
-            <div class="perk3"><p style="font-weight : bold;">Annoncez sur IndexEntreprise</p><p>Optez pour une diffusion nationale ou régionale</p></div>
-        </div>
-        <div class="perks-container1">
             <div class="perk4"><p style="font-weight : bold;">Soyez visible sur Tout internet</p><p>Bénéficiez d'une image dynamique et renforcez votre visibilité sur la toile</p></div>
             <div class="perk5"><p style="font-weight : bold;">Partagez vos Pormos</p><p>Diffusez vos offres promotionnelles et dynamisez vos ventes</p></div>
         </div>

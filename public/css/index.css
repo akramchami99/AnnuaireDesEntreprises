@@ -198,38 +198,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  padding-right: auto;
-  padding-left: 150px;
-  position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr ;
-  grid-template-areas: "perk1 perk2 perk3";
-  grid-area: perks-container;
+  width: 1120px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
-.perk1 { grid-area: perk1; }
+.perk1 { grid-area: 1 / 1 / 2 / 2; }
 
-.perk2 { grid-area: perk2; }
+.perk2 { grid-area: 1 / 2 / 2 / 3; }
 
-.perk3 { grid-area: perk3; }
+.perk4 { grid-area: 2 / 1 / 3 / 2; }
 
-
-.perks-container1{
-  display: grid;
-  padding-left: 350px;
-  grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: 0.5fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
-  
-.perk4 { 
-  grid-area: 1 / 2 / NaN / NaN; 
-  width: 400px;
-}
-.perk5 { 
-  grid-area: 1 / 1 / 2 / 2; 
-  width: 400px;
-}
+.perk5 { grid-area: 2 / 2 / 3 / 3; }
 

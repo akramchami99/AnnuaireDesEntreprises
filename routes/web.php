@@ -14,9 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('/contact', 'PagesController@contact');
-Route::get('/connect', 'PagesController@connect');
-Route::get('/annuaire', 'PagesController@annuaire');
-Route::get('/signup', 'PagesController@signup');
+Route::get('contact', 'PagesController@contact');
+Route::get('connect', 'PagesController@connect');
+Route::get('annuaire', 'PagesController@annuaire');
+Route::get('signup', 'PagesController@signup');
+Route::get('dashboard', 'AuthController@dashboard'); 
+Route::get('logout', 'AuthController@logout');
 
 Route::resource('Entreprises','EntrepriseController');
+
+Route::post('post-login', 'AuthController@postLogin'); 
+Route::post('post-registration', 'AuthController@postRegistration'); 
