@@ -15,6 +15,16 @@ class PagesController extends Controller
     public function contact(){
         return view('pages.contact');
     }
+
+    public function afficher(){
+        $entreprises = Entreprise::all();
+        return view('pages.afficher')->with('entreprises',$entreprises);
+    }
+
+    public function ajouter(){
+        return view('pages.ajouter');
+    }
+
     public function connect(){
         return view('pages.connect');
     }

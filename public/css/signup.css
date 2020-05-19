@@ -6,7 +6,7 @@ body{
 }
 
 .titlesignup{
-    margin-top: 90px;
+    margin-top: 150px;
     width: 100%;
     display: block;
     text-align: center;
@@ -29,11 +29,6 @@ body{
     width: 604px;
 }
 
-.inputs-signup{
-    margin-left: auto;
-    margin-right: auto;
-    width : 700; 
-}
 
 .prenom-signup { 
     grid-area: 1 / 1 / 2 / 2;

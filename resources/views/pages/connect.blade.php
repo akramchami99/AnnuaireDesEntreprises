@@ -11,14 +11,14 @@
                 <div class="username">
                     <input class="connect-text" type="email" name="email" placeholder="Adresse Email">
                     @if ($errors->has('email'))
-                        <span class="error">{{ $errors->first('email') }}</span>
+                        <br><span class="error">{{ $errors->first('email') }}</span>
                     @endif 
                 </div>
 
                 <div class="password">
                     <input class="connect-text" type="password" name="password" placeholder="Mot de passe">
                     @if ($errors->has('password'))
-                        <span class="error">{{ $errors->first('password') }}</span>
+                        <br><span class="error">{{ $errors->first('password') }}</span>
                     @endif  
                 </div>
                 <div class="submit"><button class="connect-submit" type="submit">Log In</button></div>

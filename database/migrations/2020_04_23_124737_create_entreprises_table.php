@@ -20,6 +20,7 @@ class CreateEntreprisesTable extends Migration
             $table->string('email');
             $table->string('telephone');
             $table->mediumText('adresse');
+            $table->string('username');
             $table->timestamps();
         });
     }

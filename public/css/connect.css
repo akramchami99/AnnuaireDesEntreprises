@@ -25,7 +25,7 @@ body{
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
     gap: 1px 1px;
     margin-left: auto;
     margin-right: auto;
@@ -37,6 +37,7 @@ body{
     grid-area: 1 / 1 / 2 / 2; 
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
   
 .password { 
@@ -44,6 +45,7 @@ body{
     grid-area: 2 / 1 / 3 / 2; 
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
   
 .submit { 
@@ -69,6 +71,7 @@ body{
     background-color : rgb(27, 27, 27);
     color : white;
     padding: 20px;
+    margin-bottom: 10px;
 }
 
 .connect-submit{
@@ -89,3 +92,4 @@ body{
     background-color: gold;
     transition: 0.5s;
 }
+

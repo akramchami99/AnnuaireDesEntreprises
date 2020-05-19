@@ -18,6 +18,8 @@ Route::get('contact', 'PagesController@contact');
 Route::get('connect', 'PagesController@connect');
 Route::get('annuaire', 'PagesController@annuaire');
 Route::get('signup', 'PagesController@signup');
+Route::get('afficher', 'PagesController@afficher')->name('afficher');;
+Route::get('ajouter', 'PagesController@ajouter')->name('ajouter');
 Route::get('dashboard', 'AuthController@dashboard'); 
 Route::get('logout', 'AuthController@logout');
 

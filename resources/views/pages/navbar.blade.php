@@ -15,11 +15,14 @@
                 <li class="lic"><a href="#">A propos</a></li>
                 <li class="lic"><a href="/contact">Contact</a></li>
                @guest
-                     <li class="lic"><a href="/connect">Connectez-vous</a></li>
+                  <li class="lic"><a href="/connect">Connectez-vous</a></li>
                @else
-                <li class="lic">
-                    <a href="{{url('dashboard')}}">Bienvenue {{ Auth::user()->firstname }}</a>
-                </li>
+                  <li class="lic">
+                     <a href="{{url('dashboard')}}">Dashboard</a>
+                  </li>
+                  <li class="lic">
+                     <a href="{{url('logout')}}">Deconnectez-vous</a>
+                  </li>
                @endguest
              </ul>
           </div>

@@ -22,7 +22,7 @@ class AuthController extends Controller
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
             // Authentication passed...
-            return redirect()->intended('dashboard');
+            return Redirect::to("dashboard");
         }
         return Redirect::to("connect")->withSuccess('Oppes! You have entered invalid credentials');
     }
